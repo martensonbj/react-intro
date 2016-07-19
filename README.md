@@ -1,4 +1,4 @@
-# React Starter Kit
+# Introduction To React Part 1
 
 To install the dependencies:
 
