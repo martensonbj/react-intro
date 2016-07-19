@@ -51,7 +51,7 @@ ReactDOM.render(<ActionButton text="Submit" />, document.getElementById('applica
 ```
 Here we're using our stored variable ReactDOM because...shockingly...we want to render an HTML element onto the DOM.
 
-More explicitly, this line of code tells our app that we want to render the component `<ActionButton />` into our document within the div element with an ID of `#application`. Take a look at the `index.html` file and you'll see the empty `<div>` ready to render our React components. 
+More explicitly, this line of code tells our app that we want to render the component `<ActionButton />` into our document within the div element with an ID of `#application`. Take a look at the `index.html` file and you'll see the empty `<div>` ready to render our React components.
 
 Note the line `text="Submit"`. This is what we've been referring to as a `prop`. It is an immutable property that will be passed down into the component and can be rendered within the JSX or HTML markdown.
 
@@ -276,3 +276,12 @@ var LikesCounter = React.createClass({
 
 ReactDOM.render(<LikesCounter initialCount={0}/>, document.getElementById('application'));
 ```
+
+##### Resources/Additional Stuff You Should Read
+[Render vs Return](https://facebook.github.io/react/docs/component-specs.html)
+
+[React Classes vs extend Component](https://toddmotto.com/react-create-class-versus-component/)
+
+[9 Things Ever React Dev Should Know](https://camjackson.net/post/9-things-every-reactjs-beginner-should-know)
+
+[React Tutorial by Facebook](https://facebook.github.io/react/docs/tutorial.html)
