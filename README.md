@@ -51,7 +51,7 @@ ReactDOM.render(<ActionButton text="Submit" />, document.getElementById('applica
 ```
 Here we're using our stored variable ReactDOM because...shockingly...we want to render an HTML element onto the DOM.
 
-More explicitly, this line of code tells our app that we want to render the component `<ActionButton />` into our document within the div element with an ID of `#application`.
+More explicitly, this line of code tells our app that we want to render the component `<ActionButton />` into our document within the div element with an ID of `#application`. Take a look at the `index.html` file and you'll see the empty `<div>` ready to render our React components. 
 
 Note the line `text="Submit"`. This is what we've been referring to as a `prop`. It is an immutable property that will be passed down into the component and can be rendered within the JSX or HTML markdown.
 
